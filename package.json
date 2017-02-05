@@ -1,0 +1,143 @@
+{
+  "_args": [
+    [
+      "truffle@git://github.com/ConsenSys/truffle.git#beta",
+      "/Users/raine/projects/prism-contracts"
+    ]
+  ],
+  "_from": "git://github.com/ConsenSys/truffle.git#beta",
+  "_id": "truffle@3.0.0-4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/truffle",
+  "_phantomChildren": {
+    "async": "1.5.2",
+    "async-eventemitter": "0.2.2",
+    "bignumber.js": "2.4.0",
+    "bip39": "2.2.0",
+    "cliui": "3.2.0",
+    "crypto-js": "3.1.8",
+    "decamelize": "1.2.0",
+    "escape-html": "1.0.3",
+    "ethereum-common": "0.0.16",
+    "ethereumjs-account": "2.0.4",
+    "ethereumjs-block": "1.2.2",
+    "ethereumjs-tx": "1.1.2",
+    "ethereumjs-util": "4.5.0",
+    "ethereumjs-wallet": "0.6.0",
+    "fake-merkle-patricia-tree": "1.0.1",
+    "functional-red-black-tree": "1.0.1",
+    "get-caller-file": "1.0.2",
+    "lodash": "4.17.2",
+    "lodash.assign": "4.2.0",
+    "memorystream": "0.3.1",
+    "merkle-patricia-tree": "2.1.2",
+    "node-dir": "0.1.16",
+    "on-finished": "2.3.0",
+    "os-locale": "1.4.0",
+    "read-pkg-up": "1.0.1",
+    "require-directory": "2.1.1",
+    "require-from-string": "1.2.1",
+    "require-main-filename": "1.0.1",
+    "seedrandom": "2.4.2",
+    "set-blocking": "2.0.0",
+    "shelljs": "0.6.1",
+    "string-width": "1.0.2",
+    "unpipe": "1.0.0",
+    "utf8": "2.1.2",
+    "web3": "0.16.0",
+    "web3-provider-engine": "8.1.16",
+    "which-module": "1.0.0",
+    "window-size": "0.1.4",
+    "xmlhttprequest": "1.8.0",
+    "y18n": "3.2.1"
+  },
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/ConsenSys/truffle/beta/package.json",
+      "gitUrl": "git://github.com/ConsenSys/truffle.git#beta",
+      "httpsUrl": "git+https://github.com/ConsenSys/truffle.git#beta",
+      "shortcut": "github:ConsenSys/truffle#beta",
+      "ssh": "git@github.com:ConsenSys/truffle.git#beta",
+      "sshUrl": "git+ssh://git@github.com/ConsenSys/truffle.git#beta",
+      "type": "github"
+    },
+    "name": "truffle",
+    "raw": "truffle@git://github.com/ConsenSys/truffle.git#beta",
+    "rawSpec": "git://github.com/ConsenSys/truffle.git#beta",
+    "scope": null,
+    "spec": "git://github.com/ConsenSys/truffle.git#beta",
+    "type": "hosted"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git://github.com/ConsenSys/truffle.git#9e8ce980de504df0a4782ccc37aab7bc3b0f4c2a",
+  "_shasum": "df35654c3b08b7ec2c332b398d3df19566d7d1d9",
+  "_shrinkwrap": null,
+  "_spec": "truffle@git://github.com/ConsenSys/truffle.git#beta",
+  "_where": "/Users/raine/projects/prism-contracts",
+  "author": {
+    "name": "consensys.net"
+  },
+  "authors": [
+    {
+      "email": "tim@timothyjcoulter.com",
+      "name": "Tim Coulter",
+      "url": "https://github.com/tcoulter"
+    }
+  ],
+  "bin": {
+    "truffle": "./cli.js",
+    "truffle-exec": "./exec.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ConsenSys/truffle/issues"
+  },
+  "dependencies": {
+    "async": "^1.4.2",
+    "babel-polyfill": "^6.7.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-2": "^6.3.13",
+    "babel-register": "^6.7.2",
+    "chai": "^3.3.0",
+    "chokidar": "^1.4.2",
+    "colors": "^1.1.2",
+    "cpr": "^0.4.3",
+    "del": "^2.2.0",
+    "ether-pudding": "^3.2.0",
+    "finalhandler": "^0.4.0",
+    "find-up": "^1.1.2",
+    "graphlib": "^2.0.0",
+    "lodash": "^4.5.1",
+    "mkdirp": "^0.5.1",
+    "mocha": "^2.3.3",
+    "node-dir": "^0.1.10",
+    "serve-static": "^1.10.0",
+    "solc": "^0.4.6",
+    "solidity-parser": "^0.1.1",
+    "spawn-args": "^0.1.0",
+    "temp": "^0.8.3",
+    "truffle-default-builder": "^1.0.3",
+    "web3": "^0.16.0",
+    "yargs": "^3.27.0"
+  },
+  "description": "Truffle - Simple development framework for Ethereum",
+  "devDependencies": {},
+  "gitHead": "9e8ce980de504df0a4782ccc37aab7bc3b0f4c2a",
+  "homepage": "https://github.com/ConsenSys/truffle",
+  "name": "truffle",
+  "namespace": "consensys",
+  "optionalDependencies": {},
+  "readme": "<img src=\"https://github.com/ConsenSys/truffle/blob/master/assets/logo.png\" width=\"200\">\n\n[![Join the chat at https://gitter.im/consensys/truffle](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/consensys/truffle?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\n-----------------------\n\n\nTruffle is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier. With Truffle, you get:\n\n* Built-in smart contract compilation, linking, deployment and binary management.\n* Automated contract testing with Mocha and Chai.\n* Configurable build pipeline with support for custom build processes.\n* Scriptable deployment & migrations framework.\n* Network management for deploying to many public & private networks.\n* Interactive console for direct contract communication.\n* Instant rebuilding of assets during development.\n* External script runner that executes scripts within a Truffle environment.\n\n### Install\n\n```\n$ npm install -g truffle\n```\n\n### Documentation\n\nPlease see the [Official Truffle Documentation](http://truffle.readthedocs.org/en/latest/) for guides, tips, and examples.\n\n### Contributing\n\nThere are many ways to contribute!\n\n1. Write issues in the [issues tracker](https://github.com/ConsenSys/truffle/issues). Please include as much information as possible!\n1. Take a look at [our Waffle](https://waffle.io/ConsenSys/truffle) for prioritization. Note that this includes issues for Truffle and related tools.\n1. Contact us in our [gitter chat](https://gitter.im/consensys/truffle)!\n\nA project by Consensys and [@tcoulter](https://github.com/tcoulter), and many contributers.\n\n### License\n\nMIT\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConsenSys/truffle.git"
+  },
+  "scripts": {
+    "docs": "mkdocs serve",
+    "test": "mocha"
+  },
+  "version": "3.0.0-4"
+}
