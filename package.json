@@ -1,7 +1,7 @@
 {
   "name": "truffle",
   "namespace": "consensys",
-  "version": "3.0.0-9.patched",
+  "version": "3.0.0-9.patched2",
   "description": "Truffle - Simple development framework for Ethereum",
   "dependencies": {
     "async": "^1.4.2",
@@ -10,7 +10,7 @@
     "colors": "^1.1.2",
     "cpr": "^0.4.3",
     "del": "^2.2.0",
-    "ether-pudding": "^3.2.0",
+    "ether-pudding": "git://github.com/raineorshine/ether-pudding.git#64f138b7e3279dc29017fcc9ad686123f2bb150e",
     "finalhandler": "^0.4.0",
     "find-up": "^1.1.2",
     "graphlib": "^2.0.0",
